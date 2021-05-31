@@ -5,7 +5,7 @@ from transformers import pipeline # First line
 
 app = Flask(__name__)
 
-#generator = pipeline('text-generation', model='EleutherAI/gpt-neo-2.7B') # Second line
+generator = pipeline('text-generation', model='EleutherAI/gpt-neo-2.7B') # Second line
 
 
 # phrase = "The yellow monkey stole a while jeep in a market" # Third line
