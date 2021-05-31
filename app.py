@@ -1,5 +1,5 @@
 from flask import Flask, request 
-#from transformers import pipeline # First line
+from transformers import pipeline # First line
 
 
 
